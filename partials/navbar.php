@@ -22,6 +22,9 @@
                     <li class="nav-item px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="store.php">Store</a>
                     </li>
+                    <li class="nav-item px-lg-4">
+                        <a class="nav-link text-uppercase text-expanded" href="contact.php">Contact</a>
+                    </li>
                 </ul>
             </div>
         </div>

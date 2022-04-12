@@ -18,7 +18,7 @@
     <section class="page-section clearfix">
         <div class="container">
             <div class="intro">
-                <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
+                <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/introS.jpg" alt="">
                 <div class="intro-text left-0 text-center bg-faded p-5 rounded">
                     <h2 class="section-heading mb-4">
                         <span class="section-heading-upper">Fresh Ideas</span>
@@ -65,34 +65,31 @@
         <div class="row">
             <div class="col-sm">
                 <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
-                    <div class="card-header">Wedding Planning</div>
+                    <div class="card-header">Take noted</div>
                     <div class="card-body">
-                        <h5 class="card-title">Take noted</h5>
-                        <p class="card-text">Has the wedding countdown began? We've got the best planning and advice
-                            articles that will make your planning go more smoothly with our wedding planning guides,
-                            month by month checklists, and info on wedding planning books, websites and apps.</p>
+                        <h5 class="card-title">Unique center tables</h5>
+                        <p class="card-text">Has the activity countdown began? We've got the best planning and advice
+                            articles that will make your planning go more smoothly with our centers guides for events.</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm">
                 <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
-                    <div class="card-header">Wedding Inspiration</div>
+                    <div class="card-header">The Details</div>
                     <div class="card-body">
-                        <h5 class="card-title">The Details</h5>
-                        <p class="card-text">It's the gorgeous little details that make your wedding day personal, and
-                            we've covered everything from decor and stationery to accessories and cake design.</p>
+                        <h5 class="card-title">For special occasion</h5>
+                        <p class="card-text">It's the gorgeous little details that make your special day to celebrate, and
+                            we've covered everything from decor and stationery to accessories and creative flower arrangement.</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm">
                 <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
-                    <div class="card-header">Wedding Essentials</div>
+                    <div class="card-header">Essential Succulents</div>
                     <div class="card-body">
-                        <h5 class="card-title">Speeches</h5>
-                        <p class="card-text">Today we're sharing a little Irish wedding inspiration! Whether you're the
-                            born-and-raised-in-Tralee kind of Irish or the second-cousins-once-removed kind of Irish,
-                            there are lots of ways to incorporate your heritage into your big day, and traditional Irish
-                            wedding blessings and sayings are a great place to start!</p>
+                        <h5 class="card-title">Buy single</h5>
+                        <p class="card-text"> Succulents are some of the most popular types of houseplants and can be one of the easiest types of houseplant to care for!
+                             Many thrive in bright rooms with lots of sunlight so choose a spot such as a windowsill in a bright living room or bedroom for the best growing conditions</p>
                     </div>
                 </div>
             </div>
