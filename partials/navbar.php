@@ -1,31 +1,32 @@
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Naff Décor</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item active px-lg-4">
-                        <a class="nav-link text-uppercase text-expanded" href="index.php">Home
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item px-lg-4">
-                        <a class="nav-link text-uppercase text-expanded" href="about.php">About</a>
-                    </li>
-                    <li class="nav-item px-lg-4">
-                        <a class="nav-link text-uppercase text-expanded" href="products.php">Products</a>
-                    </li>
-                    <li class="nav-item px-lg-4">
-                        <a class="nav-link text-uppercase text-expanded" href="store.php">Store</a>
-                    </li>
-                    <li class="nav-item px-lg-4">
-                        <a class="nav-link text-uppercase text-expanded" href="contact.php">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<!-- Navigation --> 
+
+   <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.php">NAFF Décor</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.php"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.php">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="products.php">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="store.php">Store</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.php">Contact Us</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+        <button class="btn btn-outline-success" type="submit">Log Ind</button>
+      </span>
+    </div>
+  </div>
+</nav>

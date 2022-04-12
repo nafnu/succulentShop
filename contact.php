@@ -17,8 +17,8 @@ section {
 <body>
 
     <?php 
+    include 'partials/navbar.php';  //Navigation
       include 'partials/title.php';  //Title of the business
-      include 'partials/navbar.php';  //Navigation
     ?>
 
 <!-- Content page -->
@@ -27,9 +27,10 @@ section {
 			<div class="flex-w flex-tr">
 				<div class="size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md">
 					<form>
-						<h4 class="mtext-105 cl2 txt-center p-b-30">
-							Send Us A Message
-						</h4>
+					<h2 class="section-heading mb-5">
+                <span class="section-heading-upper">Send Us</span>
+                <span class="section-heading-lower">A Message</span>
+              </h2>
 
 						<div class="bor8 m-b-20 how-pos4-parent">
 							<input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="text" name="email" placeholder="Your Email Address">

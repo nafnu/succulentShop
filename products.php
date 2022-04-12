@@ -10,8 +10,9 @@
 
 <body>
     <?php 
-      include 'partials/title.php';  //Title of the business
       include 'partials/navbar.php';  //Navigation
+      include 'partials/title.php';  //Title of the business
+      
     ?>
 
     <section class="page-section">
