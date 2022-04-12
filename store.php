@@ -9,8 +9,8 @@
 
   <body>
     <?php 
+     include 'partials/navbar.php';  //Navigation
       include 'partials/title.php';  //Title of the business
-      include 'partials/navbar.php';  //Navigation
     ?>
 
     <section class="page-section cta">
@@ -54,9 +54,9 @@
               </ul>
               <p class="address mb-5">
                 <em>
-                  <strong>1116 Orchard Street</strong>
+                  <strong>NAFF Decor 3 Grand Canal Plaza</strong>
                   <br>
-                  Golden Valley, Minnesota
+                  Grand Canal Street Upper, Dublin, D04 EE70, Ireland
                 </em>
               </p>
               <p class="mb-0">
@@ -64,7 +64,15 @@
                   <em>Call Anytime</em>
                 </small>
                 <br>
-                (317) 585-8468
+                +353 800 1236879
+              </p>
+
+              <p class="mb-0">
+                <small>
+                  <em>Sale Support</em>
+                </small>
+                <br>
+                naff@shop.com
               </p>
             </div>
           </div>
@@ -81,7 +89,7 @@
               <div class="bg-faded rounded p-5">
                 <h2 class="section-heading mb-4">
                   <span class="section-heading-upper">Strong Coffee, Strong Roots</span>
-                  <span class="section-heading-lower">About Our Cafe</span>
+                  <span class="section-heading-lower">About Our Succulent</span>
                 </h2>
                 <p>Founded in 1987 by the Hernandez brothers, our establishment has been serving up rich coffee sourced from artisan farmers in various regions of South and Central America. We are dedicated to travelling the world, finding the best coffee, and bringing back to you here in our cafe.</p>
                 <p class="mb-0">We guarantee that you will fall in
@@ -93,6 +101,9 @@
         </div>
       </div>
     </section>
+
+    
+	
 
    <!-- Footer -->
    <?php
