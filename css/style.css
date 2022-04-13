@@ -1,6 +1,6 @@
 body {
   font-family: 'Lora';
-  background-image: linear-gradient(rgba(15, 47, 25, 0.65), rgba(15, 47, 23, 0.65)), url("../img/bg2.png");
+  background-image: linear-gradient(rgba(15, 47, 25, 0.65), rgba(15, 47, 23, 0.65)), url("../img/bg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -139,7 +139,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(86, 230, 86, 0.9);
+  background-color: rgb(233 255 233 / 90%);
 }
 
 .cta .cta-inner {
@@ -228,7 +228,7 @@ p {
 }
 
 .bg-primary {
-  background-color: #67e656 !important;
+  background-color: #b9e7b3 !important;
 }
 
 .btn {
