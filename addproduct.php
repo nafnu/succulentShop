@@ -68,20 +68,17 @@ section {
                     </div>
                     <br>
                     <div class="bor8 m-b-20 how-pos4-parent">
-                    <label for="forType" class="form-label">Type of product</label>
+                    <label for="category">Type of product</label>
                         <select name="category" id="category">
-                            <option value="0">Select</option>
                             <?php
                             include 'partials/connection.php';  
                             $cat="SELECT * FROM categories";
                             $results=mysqli_query($conn,$cat);
-                            
-                            while($value=mysqli_fetch_array($results)){
-                                echo '<option value="'.$value[name].'">'.$value[name].'</option?';
+                            while($row=mysqli_fetch_assoc($results)){
+                            echo "<option value=".$row['id'].">".$row['name']."</option>";
                             }
 
                             ?>
-                    
                         </select>
                     </div>
                     <br>
