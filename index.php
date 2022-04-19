@@ -24,12 +24,8 @@
                         <span class="section-heading-upper">Fresh Ideas</span>
                         <span class="section-heading-lower"> Succulent Tablescapes</span>
                     </h2>
-                    <p class="mb-3">As much as we love DIY, budget-friendly and super personal weddings, we can't help
-                        fall in love with Pinterest-perfect wedding table settings from time to time. You know the kind
-                        of thing we mean - extravagant, drool-worthy dining space décor that can only be created by a
-                        professional stylist (or styling team!) and that makes you stop dead in your tracks. If your
-                        wedding planning philosophy is “more is more," this is the post for you! Bring on the wedding
-                        tablescapes!
+                    <p class="mb-3">Succulents make excellent eco-friendly gifts and can be used to decorate rooms or outdoor spaces in tiny gardens. Simple and elegant succulent table decorations and centrepieces are simple to grow and look great, making them ideal complements for any style of house or event.
+The Naff Luminosa collection of succulent-based creative centrepieces ideas may be used to create green table decorations for your rooms and outdoor spaces.
                     </p>
                     <div class="intro-button mx-auto">
                         <a class="btn btn-primary btn-xl" href="#">Visit Us Today!</a>
@@ -48,12 +44,8 @@
                             <span class="section-heading-upper">Our Promise</span>
                             <span class="section-heading-lower">To You</span>
                         </h2>
-                        <p class="mb-0">When you walk into our shop to desing your decoration for your great day, we are
-                            dedicated to providing you with friendly service, a welcoming atmosphere, and above all
-                            else, excellent products made
-                            with the highest quality of flowers.From the bridal party bouquets to gorgeous centrepieces,
-                            wedding flowers bring life and colour to your big day. That's why we've hunted down the best
-                            wedding florists in Ireland.</p>
+                        <p class="mb-0">When you come into our store to design your decorations for your special moments, we are dedicated to providing you with friendly service, 
+                            a welcoming atmosphere and, above all, excellent products made with the highest quality flowers. From bridal shower bouquets to beautiful centrepieces, event flowers bring life and colour to your big occasion.</p>
                     </div>
                 </div>
             </div>
