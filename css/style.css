@@ -111,6 +111,10 @@ p {
   position: relative;
 }
 
+.contact {
+  position: relative;
+}
+
 @media (min-width: 992px) {
   .intro .intro-img {
     width: 75%;

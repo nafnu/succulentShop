@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "phpstore";  //I need to change the name of the data
+$dbname = "phpstore"; 
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 

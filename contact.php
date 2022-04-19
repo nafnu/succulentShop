@@ -22,83 +22,142 @@ section {
     ?>
 
 <!-- Content page -->
+
+<section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-5">
+                <span class="section-heading-upper">Come On In</span>
+                <span class="section-heading-lower">We're Open</span>
+              </h2>
+              <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
+                <li class="list-unstyled-item list-hours-item d-flex">
+                  Sunday
+                  <span class="ml-auto">Closed</span>
+                </li>
+                <li class="list-unstyled-item list-hours-item d-flex">
+                  Monday
+                  <span class="ml-auto">7:00 AM to 8:00 PM</span>
+                </li>
+                <li class="list-unstyled-item list-hours-item d-flex">
+                  Tuesday
+                  <span class="ml-auto">7:00 AM to 8:00 PM</span>
+                </li>
+                <li class="list-unstyled-item list-hours-item d-flex">
+                  Wednesday
+                  <span class="ml-auto">7:00 AM to 8:00 PM</span>
+                </li>
+                <li class="list-unstyled-item list-hours-item d-flex">
+                  Thursday
+                  <span class="ml-auto">7:00 AM to 8:00 PM</span>
+                </li>
+                <li class="list-unstyled-item list-hours-item d-flex">
+                  Friday
+                  <span class="ml-auto">7:00 AM to 8:00 PM</span>
+                </li>
+                <li class="list-unstyled-item list-hours-item d-flex">
+                  Saturday
+                  <span class="ml-auto">9:00 AM to 5:00 PM</span>
+                </li>
+              </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<section class="attention">
+  <div class="container">
+  <div class="row">
+          <div class="col-xl-9 mx-auto">
+  <div class="card mb-3" style="max-width:950px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="img/contact.png" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+      <h2 class="section-heading mb-4">
+                                <span class="section-heading-upper">Lets talk</span>
+                                <span class="section-heading-lower">Personalized attention</span>
+                            </h2>
+                            <p>Our team can create the idea you have in mind and we will save you time.  Using our services is a practical method to save more time in those special events and live a more relaxed lifestyle. Personal Attention offers the tools and experience to meet your requests, wishes and expectations, whether for private clients or companies.</p>
+                            <div class="button mx-auto">
+                        <a class="btn btn-outline-dark btn-xl" href="#"> BOOK A FREE CONSULTATION!</a>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+  </div>
+</section>
+
 <section class="page-section cta">
 		<div class="container">
-			<div class="flex-w flex-tr">
-				<div class="size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md">
-					<form>
-					<h2 class="section-heading mb-5">
-                <span class="section-heading-upper">Send Us</span>
-                <span class="section-heading-lower">A Message</span>
-              </h2>
+      <div class="row">
+        <div class="col-sm-6">
+            <div class="flex-w flex-tr">
+            <div class="size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md">
+              <form action="handler/contact.php" method="POST">
+              <h2 class="section-heading mb-5">
+                    <span class="section-heading-upper">Send Us</span>
+                    <span class="section-heading-lower">A Message</span>
+                  </h2>
 
-						<div class="bor8 m-b-20 how-pos4-parent">
-							<input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="text" name="email" placeholder="Your Email Address">
-							<img class="how-pos4 pointer-none" src="img/icons/icon-email.png" alt="ICON">
-						</div>
+                <div class="bor8 m-b-20 how-pos4-parent">
+                  <input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="text" name="email" placeholder="Your Email Address">
+                  <img class="how-pos4 pointer-none" src="img/icons/icon-email.png" alt="ICON">
+                </div>
+                <br>
+                <div class="bor8 m-b-30">
+                  <textarea style="height: 100px" name="msg" placeholder="How Can We Help?"></textarea>
+                </div>
 
-						<div class="bor8 m-b-30">
-							<textarea class="stext-111 cl2 plh3 size-120 p-lr-28 p-tb-25" name="msg" placeholder="How Can We Help?"></textarea>
-						</div>
+                <button class="flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer">
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+				<div class="col-sm-6">
+            <p class="address mb-5">
+              <small>
+               <em><strong>Address</strong></em>
+              </small>
+              <br>
+              <em>
+              NAFF Decor 3 Grand Canal Plaza
+              <br>
+              Grand Canal Street Upper, Dublin, D04 EE70, Ireland
+              </em>
+            </p>
+                  <p class="mb-0">
+                    <small>
+                      <em><strong>Call Anytime</strong></em>
+                    </small>
+                    <br>
+                    +353 800 1236879
+                  </p>
 
-						<button class="flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer">
-							Submit
-						</button>
-					</form>
-				</div>
+                  <p class="mb-0">
+                    <small>
+                      <em><strong>Sale Support</strong></em>
+                    </small>
+                    <br>
+                    naff@shop.com
+                  </p>
 
-				<div class="size-210 bor10 flex-w flex-col-m p-lr-93 p-tb-30 p-lr-15-lg w-full-md">
-					<div class="flex-w w-full p-b-42">
-						<span class="fs-18 cl5 txt-center size-211">
-							<span class="lnr lnr-map-marker"></span>
-						</span>
-
-						<div class="size-212 p-t-2">
-							<span class="mtext-110 cl2">
-								Address
-							</span>
-
-							<p class="stext-115 cl6 size-213 p-t-18">
-								NAFF Decor 3 Grand Canal Plaza, Grand Canal Street Upper, Dublin, D04 EE70
-							</p>
-						</div>
-					</div>
-
-					<div class="flex-w w-full p-b-42">
-						<span class="fs-18 cl5 txt-center size-211">
-							<span class="lnr lnr-phone-handset"></span>
-						</span>
-
-						<div class="size-212 p-t-2">
-							<span class="mtext-110 cl2">
-								Lets Talk
-							</span>
-
-							<p class="stext-115 cl1 size-213 p-t-18">
-								+353 800 1236879
-							</p>
-						</div>
-					</div>
-
-					<div class="flex-w w-full">
-						<span class="fs-18 cl5 txt-center size-211">
-							<span class="lnr lnr-envelope"></span>
-						</span>
-
-						<div class="size-212 p-t-2">
-							<span class="mtext-110 cl2">
-								Sale Support
-							</span>
-
-							<p class="stext-115 cl1 size-213 p-t-18">
-								contact@example.com
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
+        </div>
+      </div>
 		</div>
+	</div>
 	</section>	
+  
 	
 
   <!-- Footer -->
