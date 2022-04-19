@@ -37,9 +37,9 @@
                     while($row = $result->fetch_assoc()){
                         echo '<div class="col-3">';
                             echo '<div class="card" style="width: 18rem;">';
-                                echo '<img src="'.$row['image'].'" class="card-img-top" style="width:100%; height:250px" alt="..." />';
+                                echo '<img src="'.$row['image'].'" class="card-img-top" style="width:50%; height:250px" alt="..." />';
                                 echo '<div class="card-body">';
-                                    echo '<h5 class="card-title">'.$row['name'].'</h5>';
+                                    echo '<h5 class="card-title">'.$row['namePdt'].'</h5>';
                                     echo '<p class="card-text">'.$row['description'].' </p>';
                                     echo '<a href="adoptMe.php?id='.$row['id'].'" class="btn btn-primary">Adopt me</a>';
                                     echo '<a href="editPet.php?id='.$row['id'].'" class="btn btn-success">Edit</a>';

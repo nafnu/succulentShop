@@ -11,13 +11,13 @@ $price = filter_input(INPUT_POST, 'price', FILTER_SANITIZE_NUMBER_INT);
 //declare the error array
 $error =[];
 
-if(!isset($name) || empty($name)){
+if(!isset($namePdt) || empty($namePdt)){
     $error['namePdt'] = 'Product name is required';
 }
 if(!isset($description) || empty($description)){
     $error['description'] = 'Description is required';
 }
-if(!isset($age) || empty($age)){
+if(!isset($price) || empty($price)){
     $error['price'] = 'Price is required';
 }
 
@@ -81,12 +81,12 @@ if(empty($error)){
 
     $stmt= $conn->prepare($sql);
 
-    $stmt->bind_param("ssiss",  $name,$category,$price, $description, $target_file);
+    $stmt->bind_param("ssiss",  $namePdt,$category,$price, $description, $target_file);
 
     $stmt->execute();
     $conn->close();
 
-    header("Location: adminindex.php");
+    header("Location: index.php");
 } else{
     echo '<pre>';
     print_r($error);

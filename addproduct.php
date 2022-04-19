@@ -70,10 +70,18 @@ section {
                     <div class="bor8 m-b-20 how-pos4-parent">
                     <label for="forType" class="form-label">Type of product</label>
                         <select name="category" id="category">
-                        <option>Succulents</option>
-                        <option>Collections</option>
-                        <option>Cactus</option>
-                        <option>Accessories</option>
+                            <option value="0">Select</option>
+                            <?php
+                            include 'partials/connection.php';  
+                            $cat="SELECT * FROM categories";
+                            $results=mysqli_query($conn,$cat);
+                            
+                            while($value=mysqli_fetch_array($results)){
+                                echo '<option value="'.$value[name].'">'.$value[name].'</option?';
+                            }
+
+                            ?>
+                    
                         </select>
                     </div>
                     <br>
