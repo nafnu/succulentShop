@@ -16,12 +16,12 @@ if(empty($error)){
 
     $conn->query($sql);
 
-    header('Location: ../index.php');
+    header('Location: ../addcategory.php');
 }else{
     echo '<pre>';
     print_r($error);
     echo '</pre>';
-    require_once("addproduct.php");
+    require_once("../addcategory.php");
 
 }
 
