@@ -86,7 +86,7 @@ if(empty($error)){
     $stmt->execute();
     $conn->close();
 
-    header("Location: ../index.php");
+    header("Location: ../admindex.php");
 } else{
     echo '<pre>';
     print_r($error);

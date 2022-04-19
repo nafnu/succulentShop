@@ -1,3 +1,19 @@
+<?php 
+    include 'partials/connection.php';
+
+    if(isset($_GET['id']) || ! empty($_GET['id']) ){
+        $id = $_GET['id'];
+    }
+   
+    $sql = "SELECT * FROM products WHERE id=".$id;
+    $result = $conn->query($sql);
+    $pet = $result->fetch_assoc();
+    // echo '<pre>';
+    // print_r($pet['name']);
+    // echo '</pre>';
+
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -27,34 +43,10 @@ section {
 	<div class="container">
       <div class="row">
             <div class="col-sm-6">
-                <form action="handler/cathandler.php" method="post" enctype="multipart/form-data">
-                    <h2 class="section-heading mb-5">
-                        <span class="section-heading-upper">Add</span>
-                        <span class="section-heading-lower">New Categories</span>
-                    </h2>
-
-                    <div class="bor8 m-b-20 how-pos4-parent">
-                        <input class="form-control" type="text" name="name" placeholder="New category of product">
-                    </div>
-                    <br>
-            
-                    <button class="flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer">
-                        Submit
-                    </button>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>	
-
-<section class="page-section cta">
-	<div class="container">
-      <div class="row">
-            <div class="col-sm-6">
                 <form action="handler/handleaddproducts.php" method="post" enctype="multipart/form-data">
                     <h2 class="section-heading mb-5">
-                        <span class="section-heading-upper">Add</span>
-                        <span class="section-heading-lower">New Products</span>
+                        <span class="section-heading-upper">Modify Product Information</span>
+                        <span class="section-heading-lower">Edit THIS product</span>
                     </h2>
 
                     <div class="bor8 m-b-20 how-pos4-parent">
@@ -103,6 +95,11 @@ section {
         </div>
     </div>
 </section>	
+         
+
+
+         
+
 
   <!-- Footer -->
   <?php

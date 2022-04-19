@@ -1,26 +1,25 @@
 <!-- Navigation --> 
 
-   <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+<nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.php">NAFF Décor</a>
+    <a class="navbar-brand" href="admindex.php">NAFF Décor</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.php"></a>
-        </li>
-       <li class="nav-item">
-          <a class="nav-link" href="about.php">About</a>
+          <a class="nav-link active" aria-current="page" href="admindex.php"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.php">Contact Us</a>
+          <a class="nav-link" href="addproduct.php">Add Product</a>
         </li>
-      </ul>
+       </ul>
       <span class="navbar-text">
         <button class="btn btn-outline-success" type="submit" >Log In</button>
       </span>
     </div>
   </div>
 </nav>
+
+

@@ -20,15 +20,14 @@
 <body>
 
     <?php 
-      include 'partials/navbar.php';  //Navigation
       include 'partials/title.php';  //Title of the business
+      include 'partials/adminavbar.php';  //Navigation
     ?>
 
 
 
     <!-- Container with cards-->
     
-
     <div class="container">
         <div class="row">
 
@@ -41,9 +40,9 @@
                                 echo '<div class="card-body">';
                                     echo '<h5 class="card-title">'.$row['namePdt'].'</h5>';
                                     echo '<p class="card-text">'.$row['description'].' </p>';
-                                    echo '<a href="adoptMe.php?id='.$row['id'].'" class="btn btn-outline-success">ADD TO CAR</a>';
-                                    // echo '<a href="editPet.php?id='.$row['id'].'" class="btn btn-success">Edit</a>';
-                                    // echo '<a href="deletePet.php?id='.$row['id'].'" class="btn btn-danger">Delete</a>';
+                                    // echo '<a href="adoptMe.php?id='.$row['id'].'" class="btn btn-outline-success">ADD TO CAR</a>';
+                                    echo '<a href="editproduct.php?id='.$row['id'].'" class="btn btn-secondary">Edit</a>';
+                                    echo '<a href="deleteproduct.php?id='.$row['id'].'" class="btn btn-outline-danger">Delete</a>';
                                     echo '</div>';
                             echo '</div>';
                         echo '</div>';
@@ -53,7 +52,6 @@
             ?>
         </div>
     </div>
-
 
 
     <!-- Footer -->
