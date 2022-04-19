@@ -71,10 +71,10 @@ section {
                     <div class="bor8 m-b-20 how-pos4-parent">
                     <label for="category">Type of product</label>
                         <select name="category_id" id="category">
-                        <option <?= ($products['category_id'] === '1')? 'selected' : NULL ?> value="Accessories">Accessories</option>
-                        <option <?= ($products['category_id'] === '2')? 'selected' : NULL ?> value="Succulents">Succulents</option>
-                        <option <?= ($products['category_id'] === '3')? 'selected' : NULL ?> value="Collections">Collections</option>
-                        <option <?= ($products['category_id'] === '4')? 'selected' : NULL ?> value="Cactus">Cactus</option>
+                        <option <?= ($products['category_id'] === '1')? 'selected' : NULL ?> value="1">Accessories</option>
+                        <option <?= ($products['category_id'] === '2')? 'selected' : NULL ?> value="2">Succulents</option>
+                        <option <?= ($products['category_id'] === '3')? 'selected' : NULL ?> value="3">Collections</option>
+                        <option <?= ($products['category_id'] === '4')? 'selected' : NULL ?> value="4">Cactus</option>
                         </select>
                     </div>
                     <br>
