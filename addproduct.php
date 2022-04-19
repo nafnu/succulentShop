@@ -58,13 +58,13 @@ section {
                     </h2>
 
                     <div class="bor8 m-b-20 how-pos4-parent">
-                    <label for="forName" class="form-label">Name</label>
-                        <input class="form-control" type="text" name="namePdt" placeholder="Name of the product">
+                    <label for="namePdt" class="form-label">Name</label>
+                        <input class="form-control" type="text" name="namePdt" id="namePdt" placeholder="Name of the product">
                     </div>
                     <br>
                     <div class="bor8 m-b-20 how-pos4-parent">
-                    <label for="forPrice" class="form-label">Price</label>
-                        <input class="form-control" type="number" id="price" name="price" placeholder="">
+                    <label for="price" class="form-label">Price</label>
+                        <input class="form-control" type="number" id="price" name="price" placeholder="1">
                     </div>
                     <br>
                     <div class="bor8 m-b-20 how-pos4-parent">
@@ -90,8 +90,12 @@ section {
                     <div class="mb-3">
                         <input type="file" name="image" id="imageToUpload">
                     </div>
+                    <!-- <div class="form-group">
+                            <label for="image">Selecte a picture</label>
+                            <input type="file" id="image">
+                    </div> -->
                     <br>
-                    <button class="flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer">
+                    <button class="">
                         Submit
                     </button>
                 </form>

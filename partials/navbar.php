@@ -22,7 +22,7 @@
         </li>
       </ul>
       <span class="navbar-text">
-        <button class="btn btn-outline-success" type="submit">Log Ind</button>
+        <button class="btn btn-outline-success" type="submit" >Log In</button>
       </span>
     </div>
   </div>

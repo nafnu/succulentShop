@@ -86,10 +86,10 @@ if(empty($error)){
     $stmt->execute();
     $conn->close();
 
-    header("Location: index.php");
+    header("Location: ../index.php");
 } else{
     echo '<pre>';
     print_r($error);
     echo '</pre>';
-    require_once("addproducts.php");
+    require_once("../addproducts.php");
 }
