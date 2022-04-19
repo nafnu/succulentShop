@@ -100,29 +100,27 @@ section {
 		<div class="container">
       <div class="row">
         <div class="col-sm-6">
-            <div class="flex-w flex-tr">
-            <div class="size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md">
-              <form action="handler/contact.php" method="POST">
+           
+              <form action="handler/contact.php" method="post" enctype="multipart/form-data">
               <h2 class="section-heading mb-5">
                     <span class="section-heading-upper">Send Us</span>
                     <span class="section-heading-lower">A Message</span>
                   </h2>
 
                 <div class="bor8 m-b-20 how-pos4-parent">
-                  <input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="text" name="email" placeholder="Your Email Address">
+                  <input class="form-control" type="text" name="email" placeholder="Your Email Address">
                   <img class="how-pos4 pointer-none" src="img/icons/icon-email.png" alt="ICON">
                 </div>
                 <br>
                 <div class="bor8 m-b-30">
-                  <textarea style="height: 100px" name="msg" placeholder="How Can We Help?"></textarea>
+                  <textarea rows="5" cols="10" class="form-control" type="text" name="msg" placeholder="How Can We Help?"></textarea>
                 </div>
 
                 <button class="flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer">
                   Submit
                 </button>
               </form>
-            </div>
-          </div>
+           
         </div>
 				<div class="col-sm-6">
             <p class="address mb-5">

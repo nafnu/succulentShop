@@ -2,13 +2,32 @@
 
 include '../partials/connection.php';
 
-$email=$_POST['email'];
-$msg=$_POST['msg'];
+$email = filter_input(INPUT_POST, 'email',  FILTER_SANITIZE_EMAIL);
+$msg = filter_input(INPUT_POST, 'msg',  FILTER_SANITIZE_STRING);
 
-$sql="INSERT INTO contact(email, msg) VALUES ('$email','$msg') ";
+//declare the error array
+$error =[];
+if(!isset($email) || empty($email)){
+    $error['email'] = 'Email is required';
+}
+if(!isset($msg) || empty($msg)){
+    $error['msg'] = 'Message is in blank';
+}
 
-$conn->query($sql);
+if(empty($error)){
+    $sql="INSERT INTO contact(email, msg) VALUES ('$email','$msg') ";
 
-header('Location: ../index.php');
+    $conn->query($sql);
+
+    header('Location: ../index.php');
+}else{
+    echo '<pre>';
+    print_r($error);
+    echo '</pre>';
+    require_once("contact.php");
+
+}
+
+
 ?>
 
