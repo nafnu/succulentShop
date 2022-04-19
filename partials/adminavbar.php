@@ -12,6 +12,9 @@
           <a class="nav-link active" aria-current="page" href="admindex.php"></a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="addcategory.php">Add Category</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="addproduct.php">Add Product</a>
         </li>
        </ul>
