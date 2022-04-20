@@ -21,7 +21,7 @@ session_start();
         <li class="nav-item"><a class="nav-link" href="blog.php">Blogs</a></li>
         <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
       </ul>
-      <a href='#'><img class='how-pos4 pointer-none' src='img/icons/b.png' style='height: 25px; margin-right: 10px;' alt='ICON'></a>
+      <!-- <a href='#'><img class='how-pos4 pointer-none' src='img/icons/b.png' style='height: 25px; margin-right: 10px;' alt='ICON'></a> -->
       <?php
           if(isset($_SESSION["useruid"])){
             echo "<a href='profile.php'><input type='button' class='btn btn-secondary' value='Profile' style='margin-right: 10px;' ></a>";

@@ -43,6 +43,11 @@
 	<div class="container">
       <div class="row">
             <div class="col-sm-9">
+                    <h2 class="section-heading mb-5">
+                        <span class="section-heading-upper">Review quantity </span>
+                        <span class="section-heading-lower">Shooping Cart <a href='#'><img class='how-pos4 pointer-none' src='img/icons/b.png' style='height: 40px; margin-right: 10px;' alt='ICON'></a></span>
+                        
+                    </h2>
                 <div class=class="table-responsive">
                     <table class="table">
                             <thead>
@@ -63,10 +68,10 @@
                                             echo "<td scope='col-2'>".$row['namePdt']."</td>";
                                             echo "<td scope='col-3'>€ ".'<input id="price" style="width:50px;text-align: center;" value="'.$row['price'].'"'."</td>";
                                             echo "<td scope='col-4'>".'<button onclick="increase()">+</button>
-                                                    <input style="width:50px;text-align: center;" type="number" min="1" step="1" value="1" id="counter">
+                                                    <input style="width:50px;text-align: center;" type="number" min="1" step="1" value="0" id="counter">
                                                     <button onclick="decrease()">-</button>'."</td>";
                                             echo "<td scope='col-5'>€ ".'<input
-                                            id="total"
+                                            id="total" value="0"
                                             type="number"
                                             style="width:50px;text-align: center;"disabled/>'."</td>";
                                             echo "<td><a class='btn btn-outline-danger' href='index.php?id=".$row['id']."' role='delete'>Cancel</a></td>";
@@ -90,7 +95,7 @@
 
              function $(id)
         {
-            return document.getElementById(id);
+        return document.getElementById(id);
         }
 
         function increase()
