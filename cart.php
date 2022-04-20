@@ -32,38 +32,28 @@
     
 	<div class="container">
       <div class="row">
-            <div class="col-sm-6">
-                <div class="table-responsive-sm">
+            <div class="col-sm-9">
+                <div class=class="table-responsive">
                     <table class="table">
                             <thead>
-                                <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">Product</th>
-                                    <th scope="col">Price </th>
-                                    <th scope="col">Quantity</th>
-                                    <th scope="col">Total</th>
+                                <tr class="table_head">
+                                    <th scope="col-1">Product</th>
+                                    <th scope="col-2"></th>
+                                    <th scope="col-3">Price</th>
+                                    <th scope="col-4">Quantity</th>
+                                    <th scope="col-5">Total</th>
                                 <tr>
                             </thead>
                             <tbody>
                                 <?php 
                                     if($result->num_rows>0){
                                         while($row=$result->fetch_assoc()){
-                                            echo "<tr>";
-                                            echo "<th scope='row'>".$row['id']."</th>";
-                                            echo "<td>".$row['namePdt']."</td>";
-                                            echo "<td>€ ".$row['price']."</td>";
-                                            echo "<td> <button id='aumentar' onclick='carrito(this)' value='aumentar'>+</button>"
-                                            
-                                                // <button id='aumentar' onclick="carrito(this)" value="aumentar">+</button>
-                                                // <button id='disminuir' onclick="carrito(this)" value="disminuir">-</button>
-
-                                                // <p id='contador' value=""></p>
-                                            
-                                            
-                                            
-                                            ."</td>";
-                                            //echo "<td><a class='btn btn-outline-secondary' href='updatecategory.php?id=".$row['id']."' role='update'>Update</a></td>";
-                                            echo "<td>€ total </td>";
+                                            echo "<tr class='table_row'>";
+                                            echo "<th scope='col-1'>".'<img src="'.$row['image'].'" class="card-img-top" style="width:60px; height:60px" />'."</th>";
+                                            echo "<td scope='col-2'>".$row['namePdt']."</td>";
+                                            echo "<td scope='col-3'>€ ".$row['price']."</td>";
+                                            echo "<td scope='col-4'><button id='aumentar' onclick='carrito(this)' value='aumentar'>+</button>".$row["<p id='contador' value=''></p>"]."<button id='disminuir' onclick='carrito(this)' value='disminuir'>-</button></td>";
+                                            echo "<td scope='col-5'>€ total </td>";
                                             echo "<td><a class='btn btn-outline-danger' href='index.php?id=".$row['id']."' role='delete'>Delete</a></td>";
                                             echo "</tr>";
                                         } 
