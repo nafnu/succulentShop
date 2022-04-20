@@ -18,7 +18,7 @@ Develop a web application using PHP as a language and XAMPP as a database. that 
 1. To use this run: 
 * XAMPP - Apache.<br>
 * XAMPP - MySql.<br>
-2. Works with Postman localhost
+2. Works with website localhost
 
 ## Project Summary
 In this project, you will learn how to program in PHP, how to create a database with XAMPP, and how to connect the pages you create to the database. Learning PHP is essential because it is the most recommended language for anyone who has previously explored more basic web languages such as HTML, CSS, or Javascript. We can use PHP in a straightforward manner, but it also has advanced formulas. Methods such as POST were used to conduct data searches in order to recover, insert, or delete data from the database. On the page, straight scripts were created. Finally, this project documents my personal growth as a programmer.
