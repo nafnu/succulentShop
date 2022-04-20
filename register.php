@@ -64,12 +64,43 @@
                                 </div>
                                 
                             </form>
+
+                            <br>
+                            <h2 class="section-heading mb-4" style="color: darkred;text-align:center;">
+                               
+                            <?php 
+                                if(isset($_GET["error"])){
+                                    if($_GET["error"] == "emptyinput"){
+                                        echo "<p>Fill in all fields!</p>";
+                                    }
+                                    if($_GET["error"] == "invalidUsername"){
+                                        echo "<p>Choose a proper username!</p>";
+                                    }
+                                    if($_GET["error"] == "invalidEmail"){
+                                        echo "<p>Choose a proper email! </p>";
+                                    }
+                                    if($_GET["error"] == "passwordsdontmatch"){
+                                        echo "<p>Passwords doesn't match!</p>";
+                                    }
+                                    if($_GET["error"] == "stmtfailed"){
+                                        echo "<p>Something went wrong, try again!</p>";
+                                    }
+                                    if($_GET["error"] == "usernametaken"){
+                                        echo "<p>Username already taken!</p>";
+                                    }
+                                    if($_GET["error"] == "none"){
+                                        echo "<p>You have register!</p>";
+                                    }
+                                }
+                                ?>
+                            </h2>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
 
 
 
