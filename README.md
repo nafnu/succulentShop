@@ -7,12 +7,12 @@
 Develop a web application using PHP as a language and XAMPP as a database. that can perform CRUD operations on a Mongo DB database. You are free to choose the type of data the application will store (e.g. users, cars, animals, etc.). The data should be complex enough, containing different types of values (Strings, ints, Booleans, etc.).
 
 ## Additional Information 
-[40%] All CRUD operations are working as intended (e.g. the right data is retrieved while using an index, data is being deleted by criteria, retrieve one or multiple documents).
-[10%] The application is connecting to the right database. It can connect to the XAMPP database.
-[10%] The data is complex: it contains at least one index (unique entry); has at least 3 types of variables and there are sufficient entries already in the database.
-[10%] Code is readable: consistency, right indentation, comments.
-[20%] The application is accompanied by a short report (max. 500 words) or a ReadMe file. The report should explain the development process of the application.
-[10%] Creativity: Do your research and add any other functionality to your application. (e.g. multiple variable types – Boolean, array, JSON array, etc.; basic front-end; database complexity; multiple objects, etc.)
+[40%] All CRUD operations are working as intended (e.g. the right data is retrieved while using an index, data is being deleted by criteria, retrieve one or multiple documents).<br>
+[10%] The application is connecting to the right database. It can connect to the XAMPP database.<br>
+[10%] The data is complex: it contains at least one index (unique entry); has at least 3 types of variables and there are sufficient entries already in the database.<br>
+[10%] Code is readable: consistency, right indentation, comments.<br>
+[20%] The application is accompanied by a short report (max. 500 words) or a ReadMe file. The report should explain the development process of the application.<br>
+[10%] Creativity: Do your research and add any other functionality to your application. (e.g. multiple variable types – Boolean, array, JSON array, etc.; basic front-end; database complexity; multiple objects, etc.)<br>
 
 ## Running the Project
 1. To use this run: 
