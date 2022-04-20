@@ -36,14 +36,12 @@
                 if($result->num_rows>0){
                     while($row = $result->fetch_assoc()){
                         echo '<div class="col-3">';
-                            echo '<div class="card" style="width: 18rem;">';
-                                echo '<img src="'.$row['image'].'" class="card-img-top" style="width:50%; height:250px" alt="..." />';
+                            echo '<div class="card text-dark bg-light mb-3" style="max-width: 18rem;">';
+                                echo '<img src="'.$row['image'].'" class="card-img-top" style="width:100%; height:300px" alt="..." />';
                                 echo '<div class="card-body">';
                                     echo '<h5 class="card-title">'.$row['namePdt'].'</h5>';
-                                    echo '<p class="card-text">'.$row['description'].' </p>';
+                                    echo '<p class="card-text" style="width:100%; height:220px">'.$row['description'].' </p>';
                                     echo '<a href="adoptMe.php?id='.$row['id'].'" class="btn btn-outline-success">ADD TO CAR</a>';
-                                    // echo '<a href="editPet.php?id='.$row['id'].'" class="btn btn-success">Edit</a>';
-                                    // echo '<a href="deletePet.php?id='.$row['id'].'" class="btn btn-danger">Delete</a>';
                                     echo '</div>';
                             echo '</div>';
                         echo '</div>';

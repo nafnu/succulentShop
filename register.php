@@ -1,0 +1,81 @@
+<?php 
+    include 'partials/connection.php';
+
+    $sql = "SELECT * FROM products";
+
+    $result = $conn->query($sql);
+
+?>
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <?php
+      include 'partials/header.php';  //Header - Bootstrap
+    ?>
+
+</head>
+
+<body>
+
+    <?php 
+      include 'partials/navbar.php';  //Navigation
+      include 'partials/title.php';  //Title of the business
+    ?>
+
+
+
+    <!-- Container with cards-->
+    <section class="page-section about-heading">
+    <div class="container">
+            <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/product-02.jpg" alt="">
+            <div class="about-heading-content">
+                <div class="row">
+                    <div class="col-xl-9 col-lg-10 mx-auto">
+                        <div class="bg-faded rounded p-5">
+                            <h2 class="section-heading mb-4">
+                                <span class="section-heading-upper">Join our affiliate program and earn 20% in sales.</span>
+                                <span class="section-heading-lower">Register</span>
+                            </h2>
+            <!-- Log in form! This form resets if something goes  -->
+            <form method="post" action="handleregister.php" >
+                <div class="mb-3">
+                        <label for="forUserName" class="form-label">User Name <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="username"  name="username" aria-describedby="usernameInput">
+                        <span id="usernameError" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                        <label for="forPassword" class="form-label">Password <span class="text-danger">*</span></label>
+                        <input type="password" class="form-control" id="password"  name="password" aria-describedby="passwordInput">
+                        <span id="usernameError" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                        <label for="forConfirmPassword" class="form-label">Confirm Password <span class="text-danger">*</span></label>
+                        <input type="password" class="form-control" id="confirmpassword"  name="confirmpassword" aria-describedby="confirmpasswordInput">
+                        <span id="usernameError" class="text-danger"></span>
+                </div>
+              
+                <div class="d-grid gap-2 col-6 mx-auto">
+                <button type="submit" class="btn btn-primary btn-lg">Register</button>
+                </div>
+                
+            </form>
+            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <?php
+    include 'partials/footer.php'
+    ?>
+
+</body>
+
+</html>
+

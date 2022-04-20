@@ -86,7 +86,7 @@ section {
                             </h2>
                             <p>Our team can create the idea you have in mind and we will save you time.  Using our services is a practical method to save more time in those special events and live a more relaxed lifestyle. Personal Attention offers the tools and experience to meet your requests, wishes and expectations, whether for private clients or companies.</p>
                             <div class="button mx-auto">
-                        <a class="btn btn-outline-dark btn-xl" href="#"> BOOK A FREE CONSULTATION!</a>
+                        <a class="btn btn-outline-dark btn-xl" href="mailto:artDecorScculent@shop.com"> BOOK A FREE CONSULTATION!</a>
       </div>
     </div>
   </div>

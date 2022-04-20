@@ -19,7 +19,7 @@
         </li>
       </ul>
       <span class="navbar-text">
-        <button class="btn btn-outline-success" type="submit" >Log In</button>
+        <button class="btn btn-outline-success" type="submit"  href="login.php" >Log In</button>
       </span>
     </div>
   </div>
