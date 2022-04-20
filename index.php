@@ -22,6 +22,10 @@
     <?php 
       include 'partials/navbar.php';  //Navigation
       include 'partials/title.php';  //Title of the business
+
+    //   if(isset($_SESSION["userrole"])){
+    //       echo "<p>Hello there". $_SESSION["userrole"] ."</p>";
+    //   }
     ?>
 
 

@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!-- Navigation --> 
 
 <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
@@ -17,10 +21,23 @@
         <li class="nav-item">
           <a class="nav-link" href="addproduct.php">Add Product</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="adduser.php">Add User</a>
+        </li>
        </ul>
-      <span class="navbar-text">
-        <button class="btn btn-outline-success" type="submit" >Log In</button>
-      </span>
+       <?php
+          if(isset($_SESSION["useruid"])){
+            echo "<a href='profile.php'><input type='button' class='btn btn-secondary' value='Edit YOUR Profile' ></a>";
+            echo "<a href='logout.php'><input type='button' class='btn btn-outline-warning' value='Log out' ></a>";
+          }
+          else{
+            echo "<span class='navbar-text'>";
+            echo "<a href='login.php'><input type='button' class='btn btn-primary' value='Log in' ></a>";
+            echo "<a href='register.php'><input type='button' class='btn btn-outline-light' value='Register'></a>";
+            echo "</span>";
+          }
+
+        ?>
     </div>
   </div>
 </nav>

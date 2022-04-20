@@ -46,7 +46,7 @@ section {
                         <input type="hidden" value="<?=$id?>" name="id">
                         <h2 class="section-heading mb-5">
                             <span class="section-heading-upper">Update</span>
-                            <span class="section-heading-lower">Previous Categories</span>
+                            <span class="section-heading-lower">Previous Category</span>
                         </h2>
 
                         <div class="bor8 m-b-20 how-pos4-parent">

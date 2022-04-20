@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!-- Navigation --> 
 
    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
@@ -14,18 +18,22 @@
        <li class="nav-item">
           <a class="nav-link" href="about.php">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Blogs</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.php">Contact Us</a>
-        </li>
+        <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
       </ul>
-      <span class="navbar-text">
-        <a href="login.php"><input type="button" class="btn btn-primary" value="Log in" ></a>
-        <a href="register.php"><input type="button" class="btn btn-outline-light" value="Register" ></a>
-        <!-- <button class="btn btn-outline-success" type="submit"  href="login.php" >Log In</button> -->
-      </span>
-    </div>
+      <?php
+          if(isset($_SESSION["useruid"])){
+            echo "<a href='profile.php'><input type='button' class='btn btn-secondary' value='Profile' ></a>";
+            echo "<a href='logout.php'><input type='button' class='btn btn-outline-warning' value='Log out' ></a>";
+          }
+          else{
+            echo "<span class='navbar-text'>";
+            echo "<a href='login.php'><input type='button' class='btn btn-primary' value='Log in' ></a>";
+            echo "<a href='register.php'><input type='button' class='btn btn-outline-light' value='Register'></a>";
+            echo "</span>";
+          }
+
+        ?>
+     </div>
   </div>
 </nav>

@@ -63,13 +63,13 @@ section {
                         <!-- Log in form! This form resets if something goes  -->
                         <form action="handler/handlelogin.php" method="post">
                                 <div class="mb-3">
-                                        <label for="forEmail" class="form-label">Email <span class="text-danger">*</span></label>
-                                        <input type="email" class="form-control" id="email"  name="email" aria-describedby="emailInput">
+                                        <label for="forEmail" class="form-label">Account <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" name="uid"  placeholder="Username/Email...">
                                         <span id="emailError" class="text-danger"></span>
                                 </div>
                                 <div class="mb-3">
                                         <label for="forPassword" class="form-label">Password <span class="text-danger">*</span></label>
-                                        <input type="password" class="form-control" id="password"  name="password" aria-describedby="passwordInput">
+                                        <input type="password" class="form-control" id="password"  name="password" aria-describedby="passwordInput" placeholder="Password...">
                                         <span id="passwordError" class="text-danger"></span>
                                 </div>
                                 <!-- <div class="checkbox">
@@ -80,10 +80,21 @@ section {
                                 <br><br>
                                 <div class="d-grid gap-2 col-6 mx-auto">
                                 <button type="submit" name="submit"  class="btn btn-success btn-lg">Log In</button>
-                                
                                 </div>
-                                
                             </form>
+                            <br>
+                            <h2 class="section-heading mb-4" style="color: darkred;text-align:center;">
+                            <?php 
+                                if(isset($_GET["error"])){
+                                    if($_GET["error"] == "emptyinput"){
+                                        echo "<p>Fill in all fields!</p>";
+                                    }
+                                    if($_GET["error"] == "wronglogin"){
+                                        echo "<p>Incorrect login information!</p>";
+                                    }
+                                }
+                            ?>
+                            </h2>
                         </div>
                     </div>
                 </div>
