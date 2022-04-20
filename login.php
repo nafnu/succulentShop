@@ -47,44 +47,53 @@ section {
 <!-- Content page -->
 
 
-<section class="page-section cta">
-	<div class="container">
-      <div class="row">
-            <div class="col-sm-6">
-                <form action="handler/handlelogin.php" method="post">
-                    <h2 class="section-heading mb-5">
-                        <span class="section-heading-upper">Welcome back!</span>
-                        <span class="section-heading-lower">Sign In</span>
-                    </h2>
-
-                    <div class="bor8 m-b-20 how-pos4-parent">
-                    <label for="email" class="form-label">Email</label>
-                        <input class="form-control" type="email" id="email" name="email" placeholder="Enter email">
-                    </div>
-                    <br>
-                    <div class="bor8 m-b-20 how-pos4-parent">
-                    <label for="pasword" class="form-label">Password</label>
-                        <input class="form-control" type="password" id="password" name="password" placeholder="Password">
-                    </div>
-                    <br>
-                    <div class="form-group">
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox"> Remember me
-                            </label>
-
+<br>
+    <!-- Container with cards-->
+    <section class="page-section about-heading">
+    <div class="container">
+            <!-- <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/product-02.jpg" alt=""> -->
+            <div class="about-heading-content">
+                <div class="row">
+                    <div class="col-xl-9 col-lg-10 mx-auto">
+                        <div class="bg-faded rounded p-5">
+                            <h2 class="section-heading mb-4">
+                                <span class="section-heading-upper">Welcome back!</span>
+                                <span class="section-heading-lower">Login</span>
+                            </h2>
+                        <!-- Log in form! This form resets if something goes  -->
+                        <form action="handler/handlelogin.php" method="post">
+                                <div class="mb-3">
+                                        <label for="forEmail" class="form-label">Email <span class="text-danger">*</span></label>
+                                        <input type="email" class="form-control" id="email"  name="email" aria-describedby="emailInput">
+                                        <span id="emailError" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                        <label for="forPassword" class="form-label">Password <span class="text-danger">*</span></label>
+                                        <input type="password" class="form-control" id="password"  name="password" aria-describedby="passwordInput">
+                                        <span id="passwordError" class="text-danger"></span>
+                                </div>
+                                <!-- <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> Remember me
+                                    </label>
+                                </div> -->
+                                <br><br>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                <button type="submit" name="submit"  class="btn btn-success btn-lg">Log In</button>
+                                
+                                </div>
+                                
+                            </form>
                         </div>
                     </div>
-                    <br>
-                    <div class="box-footer">
-                    <button type="submit" class="btn btn-outline-dark""> Cancel</button>
-                    <button type="submit" class="btn btn-outline-info" name="login"> Sign In</button>
-                    </div>
-                </form>
+                </div>
             </div>
         </div>
-    </div>
-</section>	
+    </section>
+
+
+
+
 
   <!-- Footer -->
   <?php

@@ -70,29 +70,29 @@ section {
 
 
 <section class="attention">
-  <div class="container">
-  <div class="row">
-          <div class="col-xl-9 mx-auto">
-  <div class="card mb-3" style="max-width:950px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="img/contact.png" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-      <h2 class="section-heading mb-4">
-                                <span class="section-heading-upper">Lets talk</span>
-                                <span class="section-heading-lower">Personalized attention</span>
-                            </h2>
-                            <p>Our team can create the idea you have in mind and we will save you time.  Using our services is a practical method to save more time in those special events and live a more relaxed lifestyle. Personal Attention offers the tools and experience to meet your requests, wishes and expectations, whether for private clients or companies.</p>
-                            <div class="button mx-auto">
-                        <a class="btn btn-outline-dark btn-xl" href="mailto:artDecorScculent@shop.com"> BOOK A FREE CONSULTATION!</a>
+            <div class="container">
+            <div class="row">
+                    <div class="col-xl-9 mx-auto">
+            <div class="card mb-3" style="max-width:950px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/contact.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                <h2 class="section-heading mb-4">
+                  <span class="section-heading-upper">Lets talk</span>
+                    <span class="section-heading-lower">Personalized attention</span>
+                </h2>
+                <p>Our team can create the idea you have in mind and we will save you time.  Using our services is a practical method to save more time in those special events and live a more relaxed lifestyle. Personal Attention offers the tools and experience to meet your requests, wishes and expectations, whether for private clients or companies.</p>
+              <div class="button mx-auto">
+              <a class="btn btn-outline-dark btn-xl" href="mailto:artDecorScculent@shop.com"> BOOK A FREE CONSULTATION!</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  </div>
-  </div>
-</div>
   </div>
 </section>
 
@@ -101,7 +101,7 @@ section {
       <div class="row">
         <div class="col-sm-6">
            
-              <form action="handler/contact.php" method="post" enctype="multipart/form-data">
+              <form action="handler/handlecontact.php" method="post" enctype="multipart/form-data">
               <h2 class="section-heading mb-5">
                     <span class="section-heading-upper">Send Us</span>
                     <span class="section-heading-lower">A Message</span>

@@ -33,7 +33,7 @@ section {
 	<div class="container">
       <div class="row">
             <div class="col-sm-8">
-                <form action="handler/cathandler.php" method="post" enctype="multipart/form-data">
+                <form action="handler/handleaddcategory.php" method="post" enctype="multipart/form-data">
                     <h2 class="section-heading mb-5">
                         <span class="section-heading-upper">Add</span>
                         <span class="section-heading-lower">New Categories</span>
