@@ -39,7 +39,7 @@
                                 echo '<img src="'.$row['image'].'" class="card-img-top" style="width:100%; height:300px" alt="..." />';
                                 echo '<div class="card-body">';
                                     echo '<h5 class="card-title">'.$row['namePdt'].'</h5>';
-                                    echo '<p class="card-text" style="width:100%; height:220px">'.$row['description'].' </p>';
+                                    echo '<p class="card-text" style="width:100%; height:90%">'.$row['description'].' </p>';
                                     // echo '<a href="adoptMe.php?id='.$row['id'].'" class="btn btn-outline-success">ADD TO CAR</a>';
                                     echo '<a href="editproduct.php?id='.$row['id'].'" class="btn btn-secondary">Edit</a>';
                                     echo '<a href="deleteproduct.php?id='.$row['id'].'" class="btn btn-outline-danger">Delete</a>';

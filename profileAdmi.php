@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 
@@ -11,7 +12,7 @@
 <body>
 
     <?php 
-      include 'partials/navbar.php';  //Navigation
+      include 'partials/adminavbar.php';  //Navigation
       include 'partials/title.php';  //Title of the business
 
     ?>

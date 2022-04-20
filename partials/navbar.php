@@ -18,18 +18,19 @@ session_start();
        <li class="nav-item">
           <a class="nav-link" href="about.php">About</a>
         </li>
-        <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.php">Blogs</a></li>
         <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
       </ul>
+      <a href='#'><img class='how-pos4 pointer-none' src='img/icons/b.png' style='height: 25px; margin-right: 10px;' alt='ICON'></a>
       <?php
           if(isset($_SESSION["useruid"])){
-            echo "<a href='profile.php'><input type='button' class='btn btn-secondary' value='Profile' ></a>";
-            echo "<a href='logout.php'><input type='button' class='btn btn-outline-warning' value='Log out' ></a>";
+            echo "<a href='profile.php'><input type='button' class='btn btn-secondary' value='Profile' style='margin-right: 10px;' ></a>";
+            echo "<a href='logout.php'><input type='button' class='btn btn-outline-warning' value='Log out'  style='margin-right: 10px;'></a>";
           }
           else{
             echo "<span class='navbar-text'>";
-            echo "<a href='login.php'><input type='button' class='btn btn-primary' value='Log in' ></a>";
-            echo "<a href='register.php'><input type='button' class='btn btn-outline-light' value='Register'></a>";
+            echo "<a href='login.php'><input type='button' class='btn btn-primary' value='Log in' style='margin-right: 10px;' ></a>";
+            echo "<a href='register.php'><input type='button' class='btn btn-outline-light' value='Register'style='margin-right: 10px;'  ></a>";
             echo "</span>";
           }
 

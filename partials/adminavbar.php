@@ -27,13 +27,13 @@ session_start();
        </ul>
        <?php
           if(isset($_SESSION["useruid"])){
-            echo "<a href='profile.php'><input type='button' class='btn btn-secondary' value='Edit YOUR Profile' ></a>";
-            echo "<a href='logout.php'><input type='button' class='btn btn-outline-warning' value='Log out' ></a>";
+            echo "<a href='profileAdmi.php'><input type='button' class='btn btn-secondary' value='Edit YOUR Profile' style='margin-right: 10px;' ></a>";
+            echo "<a href='logout.php'><input type='button' class='btn btn-outline-warning' value='Log out' style='margin-right: 10px;' ></a>";
           }
           else{
             echo "<span class='navbar-text'>";
-            echo "<a href='login.php'><input type='button' class='btn btn-primary' value='Log in' ></a>";
-            echo "<a href='register.php'><input type='button' class='btn btn-outline-light' value='Register'></a>";
+            echo "<a href='login.php'><input type='button' class='btn btn-primary' value='Log in' style='margin-right: 10px;' ></a>";
+            echo "<a href='register.php'><input type='button' class='btn btn-outline-light' value='Register' style='margin-right: 10px;'></a>";
             echo "</span>";
           }
 
