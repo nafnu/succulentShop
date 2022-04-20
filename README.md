@@ -52,7 +52,7 @@ Customer: Users/Admin<br>
 
 ### References and adaptation explanations
 Based on the project: PetShelter 
-[JS FILES - DROPBOXURL](https://dorsetdemo-my.sharepoint.com/personal/george_blanaru_faculty_dorset-college_ie/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fgeorge%5Fblanaru%5Ffaculty%5Fdorset%2Dcollege%5Fie%2FDocuments%2FJS%20FILES)
+[JS FILES - DROPBOXURL](https://github.com/georgeBl/petshelter.git)
 
 ## Testing
 Example of get:
