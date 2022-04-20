@@ -51,8 +51,8 @@ Customer: Users/Admin<br>
 2. PHP Documentation-Community
 
 ### References and adaptation explanations
-Based on the project: PetShelter 
-[JS FILES - DROPBOXURL](https://github.com/georgeBl/petshelter.git)
+Based on the project: 
+[PetShelter GitHub](https://github.com/georgeBl/petshelter.git)
 
 ## Testing
 Example of get:
