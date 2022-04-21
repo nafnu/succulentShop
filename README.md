@@ -59,9 +59,9 @@ Based on the project:
 
 ## Testing
 Example of get:
-Add category
+* Add category <br>
 ![test1](https://user-images.githubusercontent.com/65398774/164343678-165091ea-b20e-4b20-8c0d-bd5dce340b5a.png)
-List the new category added. 
+* List the new category added. <br>
 ![test2](https://user-images.githubusercontent.com/65398774/164343680-0a88b111-e9b3-48d5-9191-95454f85b7cb.png
 
 ## Considerations
