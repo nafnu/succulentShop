@@ -25,7 +25,7 @@ In this project, you will learn how to program in PHP, how to create a database 
 A miniature succulent Ecommerce was proposed for this idea. The following image is an example of the website design.<br>
 ![website](https://user-images.githubusercontent.com/65398774/164343460-ca405330-8d95-495d-9a94-ce9f21975955.png)
 
-### Initial Ideas
+### Introduction
 PHP is an excellent choice for platform development. Whatever the objective of the website is, PHP is highly likely to have all of the necessary characteristics to construct it with all of the functionalities that will be required.<br>
 It could be a commerce portal, a news portal, an educational channel, or anything else. On the other hand, this unique language has the advantage of being able to run on practically any server or operating system.<br>
 The system and language support can store a vast amount of data, making it perfect for developing big-scale projects with a lot of information.
@@ -64,7 +64,7 @@ Example of get:
 * List the new category added. <br>
 ![test2](https://user-images.githubusercontent.com/65398774/164343997-a399663f-060f-41dc-afc0-f52ebdba9679.png)
 
-## Considerations
+## Conclusion
 E-commerce has a significant requirement for regular contact with complicated databases containing critical information. After all, the things being offered are accompanied by a plethora of photographs, videos, and other media. As a result, every time you need to load a page, you must connect to various databases, which might be time-consuming. There are several pages in this project that are not entirely completed, such as the blog or the profile, because it focuses on the most observed parts in class. It was a project I thoroughly loved working on. I gained a lot of knowledge. Nowadays, the programming market is looking for people with web application knowledge, and PHP is the primary resource in this scenario.
 
 ## GDPR
