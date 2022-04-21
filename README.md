@@ -47,7 +47,7 @@ Create the structured database.The two main tables worked on are:
     * Add/update/delete categories
     * Add/delete users.
 6. Product ID tracking to display a small shooping cart table.
-![shoopingCart](https://user-images.githubusercontent.com/65398774/164343209-5a80fc40-13cf-48ca-99e2-68ac39bc5c0a.png)
+
 
 ### Libraries 
 1. Boostrap
