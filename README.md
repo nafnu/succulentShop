@@ -1,5 +1,5 @@
 # Module IIM Back-end Web Development
-## Continuous Assessment 1 
+## Continuous Assessment 3 
 ## Student: Nathalie Flores - Id: 21520
 ## Lecturer: George Blanaru
 
@@ -21,17 +21,20 @@ Develop a web application using PHP as a language and XAMPP as a database. that 
 2. Works with website localhost
 
 ## Project Summary
-In this project, you will learn how to program in PHP, how to create a database with XAMPP, and how to connect the pages you create to the database. Learning PHP is essential because it is the most recommended language for anyone who has previously explored more basic web languages such as HTML, CSS, or Javascript. We can use PHP in a straightforward manner, but it also has advanced formulas. Methods such as POST were used to conduct data searches in order to recover, insert, or delete data from the database. On the page, straight scripts were created. Finally, this project documents my personal growth as a programmer.
+In this project, you will learn how to program in PHP, how to create a database with XAMPP, and how to connect the pages you create to the database. Learning PHP is essential because it is the most recommended language for anyone who has previously explored more basic web languages such as HTML, CSS, or Javascript. We can use PHP in a straightforward manner, but it also has advanced formulas. Methods such as POST were used to conduct data searches in order to recover, insert, or delete data from the database. On the page, straight scripts were created. Finally, this project documents my personal growth as a programmer.<br><br>
+A miniature succulent Ecommerce was proposed for this idea. The following image is an example of the website design.<br>
+![website](https://user-images.githubusercontent.com/65398774/164343460-ca405330-8d95-495d-9a94-ce9f21975955.png)
 
 ### Initial Ideas
 PHP is an excellent choice for platform development. Whatever the objective of the website is, PHP is highly likely to have all of the necessary characteristics to construct it with all of the functionalities that will be required.<br>
 It could be a commerce portal, a news portal, an educational channel, or anything else. On the other hand, this unique language has the advantage of being able to run on practically any server or operating system.<br>
-The system and language support can store a vast amount of data, making it perfect for developing big-scale projects with a lot of information.<br>
-A miniature succulent Ecommerce was proposed for this idea.<br>
+The system and language support can store a vast amount of data, making it perfect for developing big-scale projects with a lot of information.
 
 ### Contextualizing
-Product: Succulents<br>
-Customer: Users/Admin<br>
+Create the structured database.The two main tables worked on are:
+1. Product: Succulents<br>
+2. Customer: Users/Admin<br>
+![phpMyAdmin](https://user-images.githubusercontent.com/65398774/164342764-325b6274-ac21-4e2c-b5ca-4430f0e68fb2.png)
 
 ## Development Process. 
 1. Created index.php page. 
@@ -44,7 +47,7 @@ Customer: Users/Admin<br>
     * Add/update/delete categories
     * Add/delete users.
 6. Product ID tracking to display a small shooping cart table.
-
+![shoopingCart](https://user-images.githubusercontent.com/65398774/164343209-5a80fc40-13cf-48ca-99e2-68ac39bc5c0a.png)
 
 ### Libraries 
 1. Boostrap
@@ -56,8 +59,10 @@ Based on the project:
 
 ## Testing
 Example of get:
-
-
+Add category
+![test1](https://user-images.githubusercontent.com/65398774/164343678-165091ea-b20e-4b20-8c0d-bd5dce340b5a.png)
+List the new category added. 
+![test2](https://user-images.githubusercontent.com/65398774/164343680-0a88b111-e9b3-48d5-9191-95454f85b7cb.png
 
 ## Considerations
 E-commerce has a significant requirement for regular contact with complicated databases containing critical information. After all, the things being offered are accompanied by a plethora of photographs, videos, and other media. As a result, every time you need to load a page, you must connect to various databases, which might be time-consuming. There are several pages in this project that are not entirely completed, such as the blog or the profile, because it focuses on the most observed parts in class. It was a project I thoroughly loved working on. I gained a lot of knowledge. Nowadays, the programming market is looking for people with web application knowledge, and PHP is the primary resource in this scenario.
