@@ -62,7 +62,7 @@ Example of get:
 * Add category <br>
 ![test1](https://user-images.githubusercontent.com/65398774/164343678-165091ea-b20e-4b20-8c0d-bd5dce340b5a.png)
 * List the new category added. <br>
-![test2](https://user-images.githubusercontent.com/65398774/164343680-0a88b111-e9b3-48d5-9191-95454f85b7cb.png
+![test2](https://user-images.githubusercontent.com/65398774/164343997-a399663f-060f-41dc-afc0-f52ebdba9679.png)
 
 ## Considerations
 E-commerce has a significant requirement for regular contact with complicated databases containing critical information. After all, the things being offered are accompanied by a plethora of photographs, videos, and other media. As a result, every time you need to load a page, you must connect to various databases, which might be time-consuming. There are several pages in this project that are not entirely completed, such as the blog or the profile, because it focuses on the most observed parts in class. It was a project I thoroughly loved working on. I gained a lot of knowledge. Nowadays, the programming market is looking for people with web application knowledge, and PHP is the primary resource in this scenario.
